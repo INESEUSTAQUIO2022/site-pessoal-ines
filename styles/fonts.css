@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'decorativa';
+  src: url('./../fonts/Great_Vibes/GreatVibes-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url('./../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'negrito';
+  src: url('./../fonts/Roboto/Roboto-Bold.ttf');
+}

@@ -1,0 +1,48 @@
+@import url('./global.css');
+
+body {
+  background:
+  linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+  url('./../images/hero-image.jpg');
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.produto {
+  display: flex;
+  flex: 33%;
+  margin-bottom: 50px;
+}
+
+.produto .informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.produto img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.produto .nome {
+  font-family: 'decorativa';
+  font-size: 80px;
+}
+
+.produto .preco {
+  font-family: 'negrito';
+  font-size: 30px;
+}
+
+sup {
+  font-size: 15px;
+}
